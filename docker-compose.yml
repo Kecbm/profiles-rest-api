@@ -1,0 +1,13 @@
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: profiles-rest-api
+    ports:
+      - "8000:8000"
+    stdin_open: true       # Permite interatividade (como -it)
+    tty: true              # Aloca um terminal
+    volumes:
+      - .:/workspace       # (opcional) Monta o diretório atual dentro do container
+    working_dir: /workspace
