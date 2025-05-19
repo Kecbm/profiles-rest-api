@@ -11,13 +11,19 @@ Development server
 
 - Docker, Virtualbox
 
+<img title="Docker" alt="Docker" height="80" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />
+
 Application code
 
 - Python, django, django rest framework
 
+<img title="Python" alt="Python" height="80" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" /> <img title="Django" alt="Django" height="80" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" /> <img title="Django Rest Framework" alt="Django Rest Framework" height="80" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/djangorest/djangorest-original.svg" />
+
 Devops
 
 - AWS
+
+<img title="AWS" alt="AWS" height="80" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
 
 Application tools
 
