@@ -9,6 +9,15 @@ API construct in [Build a Backend REST API with Python & Django - Beginner](http
 
 Section 5 - 18 class
 
+## Commands
+
+Create the (env): `python -m venv ˜/env`
+Activate the (env): `source ˜/env/bin/activate`
+Deactivate the (env): `deactivate`
+Install dependencies (in the env): `pip install -r requirements.txt`
+
+Start the Django server: `python manage.py runserver 0.0.0.0:8000`
+
 ## Technologies
 
 Development server
