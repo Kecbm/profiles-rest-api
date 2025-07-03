@@ -24,7 +24,7 @@ Apply migrations: `python manage.py migrate`
 
 Create a superuser: `python manage.py createsuperuser`
 
-Django administration: http://localhost:8000/admin/
+Django administration: http://127.0.0.1:8000/admin/
 
 ## Technologies
 
