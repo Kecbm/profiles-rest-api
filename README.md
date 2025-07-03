@@ -7,7 +7,7 @@ API construct in [Build a Backend REST API with Python & Django - Beginner](http
 
 ## Next class
 
-Section 7 - 28 class - 2 min
+Section 9 - 39 class
 
 ## Commands
 
