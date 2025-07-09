@@ -49,3 +49,7 @@ Devops
 Application tools
 
 - Chrome extension mod header
+
+## Next steps
+
+- Create a parser for the API
