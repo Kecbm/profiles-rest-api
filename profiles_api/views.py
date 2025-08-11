@@ -85,3 +85,7 @@ class HelloViewSet(viewsets.ViewSet):
         """Handle updating part of an object"""
         return Response({'http_method': 'PATCH'})
     
+    def destroy(self, request, pk=None):
+        """Handle removing an object"""
+        return Response({'http_method': 'DELETE'})
+    
