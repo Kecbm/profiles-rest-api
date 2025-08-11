@@ -7,7 +7,7 @@ API construct in [Build a Backend REST API with Python & Django - Beginner](http
 
 ## Next class
 
-Section 9 - 39 class
+Section 10 - 49 class
 
 ## Commands
 
@@ -17,7 +17,7 @@ Deactivate the (env): `deactivate`
 Install dependencies (in the env): `pip install -r requirements.txt`
 
 Start the Django server: `python manage.py runserver 0.0.0.0:8000`
-Startar container docker
+Link in the borwser: http://127.0.0.1:8000/api
 
 Create migrations: `python manage.py makemigrations profiles_api`
 Apply migrations: `python manage.py migrate`
