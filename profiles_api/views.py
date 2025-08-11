@@ -76,3 +76,7 @@ class HelloViewSet(viewsets.ViewSet):
     def retrieve(self, request, pk=None):
         """Handle getting an object by its ID"""
         return Response({'http_method': 'GET'})
+    
+    def update(self, request, pk=None):
+        """Handle updating an object"""
+        return Response({'http_method': 'PUT'})
