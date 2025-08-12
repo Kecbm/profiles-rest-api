@@ -7,7 +7,7 @@ API construct in [Build a Backend REST API with Python & Django - Beginner](http
 
 ## Next class
 
-Section 10 - 49 class
+Section 10 - 54 class
 
 ## Commands
 
@@ -30,9 +30,7 @@ Django administration: http://127.0.0.1:8000/admin/
 
 Development server
 
-- Docker, Virtualbox
-
-<img title="Docker" alt="Docker" height="80" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />
+- Virtualbox
 
 Application code
 
