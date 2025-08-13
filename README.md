@@ -7,7 +7,7 @@ API construct in [Build a Backend REST API with Python & Django - Beginner](http
 
 ## Next class
 
-Section 10 - 54 class
+Section 12 - 59 class
 
 ## Commands
 
@@ -43,11 +43,3 @@ Devops
 - AWS
 
 <img title="AWS" alt="AWS" height="80" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
-
-Application tools
-
-- Chrome extension mod header
-
-## Next steps
-
-- Create a parser for the API
