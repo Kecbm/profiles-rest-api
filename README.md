@@ -5,10 +5,6 @@ API construct in [Build a Backend REST API with Python & Django - Beginner](http
 - Teacher: https://www.linkedin.com/in/markwinterbottom/ 
 - Repository: https://github.com/LondonAppDev/profiles-rest-api
 
-## Next class
-
-Section 12 - 59 class
-
 ## Commands
 
 Create the (env): `python -m venv ˜/env`
@@ -28,18 +24,8 @@ Django administration: http://127.0.0.1:8000/admin/
 
 ## Technologies
 
-Development server
-
-- Virtualbox
-
 Application code
 
 - Python, django, django rest framework
 
 <img title="Python" alt="Python" height="80" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" /> <img title="Django" alt="Django" height="80" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" /> <img title="Django Rest Framework" alt="Django Rest Framework" height="80" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/djangorest/djangorest-original.svg" />
-
-Devops
-
-- AWS
-
-<img title="AWS" alt="AWS" height="80" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
