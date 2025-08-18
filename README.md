@@ -43,7 +43,7 @@ A complete REST API built with Django and Django REST Framework, featuring user 
 
 <p align="right"><a href="#top">Back to the top 👆🏾</a></p>
 
-<details><summary>Execute the project</summary>
+## Execute the project
 
 ### Prerequisites
 - Python 3.8+
@@ -102,9 +102,6 @@ python manage.py makemigrations
 # Apply migrations
 python manage.py migrate
 ```
-</details>
-
-<p align="right"><a href="#top">Back to the top 👆🏾</a></p>
 
 ## Project Architecture
 
@@ -147,7 +144,7 @@ The Profiles REST API follows a layered architecture pattern that ensures separa
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-<details><summary>🔄 Data Flow Architecture</summary>
+### 🔄 **Data Flow Architecture**
 
 #### **Profile Management Flow**
 ```
@@ -162,9 +159,8 @@ User Request → Authentication → Permissions → Serializer → Business Logi
      ↓              ↓              ↓             ↓             ↓          ↓        ↓
   HTTP POST    Token/Session   UpdateOwnStatus   Validation   perform_create  FeedItem  SQLite
 ```
-</details>
 
-<details><summary>📋 Layer Responsibilities</summary>
+### 📋 **Layer Responsibilities**
 
 #### **1. Client Layer**
 - **Purpose**: Interface for user interaction
@@ -217,11 +213,10 @@ User Request → Authentication → Permissions → Serializer → Business Logi
   - `ProfileFeedItem`: Feed post model
   - SQLite database
 - **Responsibility**: Data storage, relationships, constraints
-</details>
 
 ### 🔄 **CRUD Operations Flow**
 
-<details><summary>Profile CRUD Flow</summary>
+#### **Profile CRUD Flow**
 
 ##### **CREATE Profile (POST /api/profile/)**
 ```
@@ -265,9 +260,8 @@ User Request → Authentication → Permissions → Serializer → Business Logi
 5. UserProfile instance deleted from database
 6. 204 No Content response returned
 ```
-</details>
 
-<details><summary>Feed Item CRUD Flow</summary>
+#### **Feed Item CRUD Flow**
 
 ##### **CREATE Feed Item (POST /api/feed/)**
 ```
@@ -309,7 +303,6 @@ User Request → Authentication → Permissions → Serializer → Business Logi
 5. ProfileFeedItem instance deleted from database
 6. 204 No Content response returned
 ```
-</details>
 
 ### 🔐 **Security Flow**
 
@@ -351,7 +344,7 @@ Input Data → Field Validation → User Assignment → Timestamp Generation →
 
 ## Documentation
 
-<details><summary>📚 API Endpoints</summary>
+### 📚 **API Endpoints**
 
 #### Authentication
 - `POST /api/login/` - User login (returns authentication token)
@@ -371,9 +364,8 @@ Input Data → Field Validation → User Assignment → Timestamp Generation →
 - `PUT /api/feed/{id}/` - Update feed item (owner only)
 - `PATCH /api/feed/{id}/` - Partial update feed item (owner only)
 - `DELETE /api/feed/{id}/` - Delete feed item (owner only)
-</details>
 
-<details><summary>🔐 Authentication</summary>
+### 🔐 **Authentication**
 
 The API supports two authentication methods:
 
@@ -414,7 +406,6 @@ POST /api/login/
     "password": "securepassword123"
 }
 ```
-</details>
 
 ### 🛡️ **Permissions**
 
