@@ -103,6 +103,8 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
+<p align="right"><a href="#top">Back to the top 👆🏾</a></p>
+
 ## Project Architecture
 
 ### 🏗️ **System Architecture Overview**
@@ -341,6 +343,8 @@ Input Data → Field Validation → Custom Validation → Password Hashing → D
 ```
 Input Data → Field Validation → User Assignment → Timestamp Generation → Database Save
 ```
+
+<p align="right"><a href="#top">Back to the top 👆🏾</a></p>
 
 ## Documentation
 
